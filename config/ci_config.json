@@ -1,0 +1,28 @@
+{
+    "artifactStructure": {
+      "assets": [
+        {
+          "root": "desktop"
+        }
+      ],
+      "translations": [
+        {
+          "pattern": "**/*.po"
+        }
+      ]
+    },
+    "dependencies": {
+      "installDepsCmd": "npm install",
+      "requiredFiles": ["package.json", "package-lock.json"]
+    },
+    "buildArtifacts": {
+      "buildSetupCmd": "echo setup",
+      "buildCmd": "echo hello"
+    },
+    "livePreview": {
+      "serveSetupCmd": "echo setup",
+      "serve_cmd": "echo serve",
+      "rebuildCmd": "echo rebuild"
+    },
+    "root": "src"
+  }

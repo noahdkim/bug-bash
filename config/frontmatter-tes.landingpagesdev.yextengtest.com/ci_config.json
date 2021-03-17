@@ -1,0 +1,24 @@
+{
+    "artifactStructure": {
+      "translations": [
+        {
+          "pattern": "korean.po"
+        }
+      ],
+      "soyTemplates": [
+        {
+          "root": "soy"
+        }
+      ]
+    },
+    "dependencies": {
+      "installDepsCmd": "echo tagus",
+      "requiredFiles": ["package.json", "package-lock.json"]
+    },
+    "livePreview": {
+      "serveSetupCmd": "echo setup",
+      "serve_cmd": "echo serve",
+      "rebuildCmd": "echo rebuild"
+    },
+    "root": ""
+  }
