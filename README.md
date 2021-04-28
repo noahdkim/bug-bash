@@ -1,4 +1,4 @@
 # m4test
 
 Update 10
-new
+new commit hopefully with rebase      
